@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboChefServer", "RoboChefServer.csproj", "{EA649DAA-2840-4D59-AC1D-E560A7FA4877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA649DAA-2840-4D59-AC1D-E560A7FA4877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA649DAA-2840-4D59-AC1D-E560A7FA4877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA649DAA-2840-4D59-AC1D-E560A7FA4877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA649DAA-2840-4D59-AC1D-E560A7FA4877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7AEC688-91B9-4642-90DC-04910AE04224}
+	EndGlobalSection
+EndGlobal
