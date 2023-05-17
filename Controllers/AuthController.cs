@@ -76,5 +76,12 @@ namespace RoboChefServer {
                 return BadRequest(e.Message);
             }
         }
+
+        [HttpGet]
+        [Route("test")]
+        public ActionResult<IEnumerable<string>> AccountLogin()
+        {
+            return new string[] { "hi", "hello" };
+        }
     }
 }

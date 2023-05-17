@@ -12,7 +12,7 @@ namespace RoboChefServer
             Configuration = configuration;
         }
 
-        public async void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)
         {
             try
             {
