@@ -20,8 +20,13 @@ namespace RoboChefServer
                 var client = new MongoClient(connectionString);
                 var database = client.GetDatabase("RoboChef");
 
+                IOpenAIProxy chatOpenAI = new OpenAIProxy(
+                    apiKey: "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",
+                    organizationId: "org-AhBUKgndUHy7EvUrOmzSFXQl");
 
                 Console.Write("Database Connected");
+
+                services.AddSingleton(chatOpenAI);
                 services.AddSingleton(database);
                 services.AddControllers();
                 services.AddEndpointsApiExplorer();

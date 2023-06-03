@@ -11,13 +11,18 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="MongoDB.Driver" Version="2.19.1" />
+    <PackageReference Include="Standard.AI.OpenAI" Version="0.6.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Models\" />
+    <None Remove="Interfaces\" />
+    <None Remove="OpenAI\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="OpenAI\" />
   </ItemGroup>
 </Project>
