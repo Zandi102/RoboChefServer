@@ -21,7 +21,7 @@ namespace RoboChefServer
                 var database = client.GetDatabase("RoboChef");
 
                 IOpenAIProxy chatOpenAI = new OpenAIProxy(
-                    apiKey: "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",
+                    apiKey: "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",
                     organizationId: "org-AhBUKgndUHy7EvUrOmzSFXQl");
 
                 Console.Write("Database Connected");
