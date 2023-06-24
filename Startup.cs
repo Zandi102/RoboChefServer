@@ -14,6 +14,7 @@ namespace RoboChefServer
 
         public void ConfigureServices(IServiceCollection services)
         {
+            //kjhkhkjhkjhkj
             try
             {
                 var connectionString = "mongodb+srv://alex:pallozzi@cluster0.xrwnatt.mongodb.net/?retryWrites=true&w=majority";
