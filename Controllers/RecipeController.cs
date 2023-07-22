@@ -6,7 +6,6 @@ namespace RoboChefServer.Controllers
 
     namespace RoboChefServer
     {
-        //test
         [ApiController]
         [Route("recipe")]
         public class RecipeController : ControllerBase

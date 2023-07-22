@@ -20,7 +20,7 @@ namespace RoboChefServer {
         {
             try
             {
-                if (user.Username == null || user.Email == null || user.Password == null)
+                if (user.Username == "" || user.Email == "" || user.Password == "")
                 {
                     return BadRequest("Not All Required Fields Are Present");
                 }
@@ -69,7 +69,7 @@ namespace RoboChefServer {
                     return BadRequest("Invalid login credentials");
                 }
 
-                return Ok(result);
+                return Ok();
             }
             catch(Exception e)
             {
